@@ -35,8 +35,4 @@ public class Tab2Fragment1 extends TabFragment{
         data.putString("text", ((TextView) findViewById(R.id.pass_back_input)).getText().toString());
         return data;
     }
-
-    public void update(Bundle params)
-    {
-    }
 }

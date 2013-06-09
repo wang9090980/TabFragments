@@ -82,7 +82,7 @@ public class TabContainer extends FragmentActivity {
 	protected void onFirstFragmentBackPressed()
 	{
         //make a toast for example
-		//super.onBackPressed();
+		super.onBackPressed();
 	}
 
     /**

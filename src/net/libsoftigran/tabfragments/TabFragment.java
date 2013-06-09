@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 /**
  * Superclass for tab fragments.
  * */
-public abstract class TabFragment extends Fragment{
+public class TabFragment extends Fragment{
 
     protected View content;
     protected TabContainer activity;
@@ -50,7 +50,9 @@ public abstract class TabFragment extends Fragment{
      * Should be overrided in subclasses for updating this fragment for appropriate data.
      * @param data data needed to update this fragment.
      * */
-	public abstract void update(Bundle data);
+	public void update(Bundle data)
+	{
+	}
 
     /**
      * Same method as update + Uri parameter which comes with intent when an activity was called for result.
